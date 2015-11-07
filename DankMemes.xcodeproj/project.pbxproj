@@ -13,6 +13,8 @@
 		E66A07651BEEA588000BFF3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66A07641BEEA588000BFF3B /* Images.xcassets */; };
 		E66A07681BEEA588000BFF3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E66A07661BEEA588000BFF3B /* LaunchScreen.xib */; };
 		E66A07741BEEA588000BFF3B /* DankMemesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A07731BEEA588000BFF3B /* DankMemesTests.swift */; };
+		E66A07861BEEA69B000BFF3B /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A07851BEEA69B000BFF3B /* KeyboardViewController.swift */; };
+		E66A07891BEEA69B000BFF3B /* LeMemeKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E66A07811BEEA69B000BFF3B /* LeMemeKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +25,28 @@
 			remoteGlobalIDString = E66A07571BEEA588000BFF3B;
 			remoteInfo = DankMemes;
 		};
+		E66A07871BEEA69B000BFF3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E66A07501BEEA588000BFF3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E66A07801BEEA69B000BFF3B;
+			remoteInfo = LeMemeKeyboard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E66A078D1BEEA69B000BFF3B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E66A07891BEEA69B000BFF3B /* LeMemeKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E66A07581BEEA588000BFF3B /* DankMemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DankMemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +59,9 @@
 		E66A076D1BEEA588000BFF3B /* DankMemesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DankMemesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66A07721BEEA588000BFF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E66A07731BEEA588000BFF3B /* DankMemesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DankMemesTests.swift; sourceTree = "<group>"; };
+		E66A07811BEEA69B000BFF3B /* LeMemeKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LeMemeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66A07841BEEA69B000BFF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E66A07851BEEA69B000BFF3B /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +79,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E66A077E1BEEA69B000BFF3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +94,7 @@
 			children = (
 				E66A075A1BEEA588000BFF3B /* DankMemes */,
 				E66A07701BEEA588000BFF3B /* DankMemesTests */,
+				E66A07821BEEA69B000BFF3B /* LeMemeKeyboard */,
 				E66A07591BEEA588000BFF3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +104,7 @@
 			children = (
 				E66A07581BEEA588000BFF3B /* DankMemes.app */,
 				E66A076D1BEEA588000BFF3B /* DankMemesTests.xctest */,
+				E66A07811BEEA69B000BFF3B /* LeMemeKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +147,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E66A07821BEEA69B000BFF3B /* LeMemeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E66A07851BEEA69B000BFF3B /* KeyboardViewController.swift */,
+				E66A07831BEEA69B000BFF3B /* Supporting Files */,
+			);
+			path = LeMemeKeyboard;
+			sourceTree = "<group>";
+		};
+		E66A07831BEEA69B000BFF3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E66A07841BEEA69B000BFF3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +174,12 @@
 				E66A07541BEEA588000BFF3B /* Sources */,
 				E66A07551BEEA588000BFF3B /* Frameworks */,
 				E66A07561BEEA588000BFF3B /* Resources */,
+				E66A078D1BEEA69B000BFF3B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E66A07881BEEA69B000BFF3B /* PBXTargetDependency */,
 			);
 			name = DankMemes;
 			productName = DankMemes;
@@ -150,6 +204,23 @@
 			productReference = E66A076D1BEEA588000BFF3B /* DankMemesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E66A07801BEEA69B000BFF3B /* LeMemeKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E66A078A1BEEA69B000BFF3B /* Build configuration list for PBXNativeTarget "LeMemeKeyboard" */;
+			buildPhases = (
+				E66A077D1BEEA69B000BFF3B /* Sources */,
+				E66A077E1BEEA69B000BFF3B /* Frameworks */,
+				E66A077F1BEEA69B000BFF3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeMemeKeyboard;
+			productName = LeMemeKeyboard;
+			productReference = E66A07811BEEA69B000BFF3B /* LeMemeKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +236,9 @@
 					E66A076C1BEEA588000BFF3B = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = E66A07571BEEA588000BFF3B;
+					};
+					E66A07801BEEA69B000BFF3B = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
@@ -183,6 +257,7 @@
 			targets = (
 				E66A07571BEEA588000BFF3B /* DankMemes */,
 				E66A076C1BEEA588000BFF3B /* DankMemesTests */,
+				E66A07801BEEA69B000BFF3B /* LeMemeKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +274,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E66A076B1BEEA588000BFF3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66A077F1BEEA69B000BFF3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +307,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E66A077D1BEEA69B000BFF3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66A07861BEEA69B000BFF3B /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +322,11 @@
 			isa = PBXTargetDependency;
 			target = E66A07571BEEA588000BFF3B /* DankMemes */;
 			targetProxy = E66A076E1BEEA588000BFF3B /* PBXContainerItemProxy */;
+		};
+		E66A07881BEEA69B000BFF3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E66A07801BEEA69B000BFF3B /* LeMemeKeyboard */;
+			targetProxy = E66A07871BEEA69B000BFF3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -392,6 +487,30 @@
 			};
 			name = Release;
 		};
+		E66A078B1BEEA69B000BFF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeMemeKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E66A078C1BEEA69B000BFF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeMemeKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -417,6 +536,14 @@
 			buildConfigurations = (
 				E66A077B1BEEA588000BFF3B /* Debug */,
 				E66A077C1BEEA588000BFF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E66A078A1BEEA69B000BFF3B /* Build configuration list for PBXNativeTarget "LeMemeKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E66A078B1BEEA69B000BFF3B /* Debug */,
+				E66A078C1BEEA69B000BFF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
