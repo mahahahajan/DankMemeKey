@@ -227,6 +227,8 @@
 		E66A07501BEEA588000BFF3B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Pulkit Mahajan";
 				TargetAttributes = {
@@ -530,6 +532,7 @@
 				E66A07791BEEA588000BFF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E66A077A1BEEA588000BFF3B /* Build configuration list for PBXNativeTarget "DankMemesTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +541,7 @@
 				E66A077C1BEEA588000BFF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E66A078A1BEEA69B000BFF3B /* Build configuration list for PBXNativeTarget "LeMemeKeyboard" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +550,7 @@
 				E66A078C1BEEA69B000BFF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

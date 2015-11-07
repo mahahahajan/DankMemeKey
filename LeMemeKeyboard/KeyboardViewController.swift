@@ -26,20 +26,20 @@ class KeyboardViewController: UIInputViewController {
         let buttonTitles3 = ["CP", "Z", "X", "C", "V", "B", "N", "M", "BP"]
         let buttonTitles4 = ["CHG", "SPACE", "RETURN"]
         
-        var row1 = createRowOfButtons(buttonTitles1)
-        var row2 = createRowOfButtons(buttonTitles2)
-        var row3 = createRowOfButtons(buttonTitles3)
-        var row4 = createRowOfButtons(buttonTitles4)
+        let row1 = createRowOfButtons(buttonTitles1)
+        let row2 = createRowOfButtons(buttonTitles2)
+        let row3 = createRowOfButtons(buttonTitles3)
+        let row4 = createRowOfButtons(buttonTitles4)
         
         self.view.addSubview(row1)
         self.view.addSubview(row2)
         self.view.addSubview(row3)
         self.view.addSubview(row4)
         
-        row1.setTranslatesAutoresizingMaskIntoConstraints(false)
-        row2.setTranslatesAutoresizingMaskIntoConstraints(false)
-        row3.setTranslatesAutoresizingMaskIntoConstraints(false)
-        row4.setTranslatesAutoresizingMaskIntoConstraints(false)
+        row1.translatesAutoresizingMaskIntoConstraints = false
+        row2.translatesAutoresizingMaskIntoConstraints = false
+        row3.translatesAutoresizingMaskIntoConstraints = false
+        row4.translatesAutoresizingMaskIntoConstraints = false
         
         addConstraintsToInputView(self.view, rowViews: [row1, row2, row3, row4])
     }
@@ -47,7 +47,7 @@ class KeyboardViewController: UIInputViewController {
     func createRowOfButtons(buttonTitles: [NSString]) -> UIView {
         
         var buttons = [UIButton]()
-        var keyboardRowView = UIView(frame: CGRectMake(0, 0, 320, 50))
+        let keyboardRowView = UIView(frame: CGRectMake(0, 0, 320, 50))
         
         for buttonTitle in buttonTitles{
             
@@ -66,15 +66,15 @@ class KeyboardViewController: UIInputViewController {
         // Dispose of any resources that can be recreated
     }
     
-    override func textWillChange(textInput: UITextInput) {
+    override func textWillChange(textInput: UITextInput?) {
         // The app is about to change the document's contents. Perform any preparation here.
     }
     
-    override func textDidChange(textInput: UITextInput) {
+    override func textDidChange(textInput: UITextInput?) {
         // The app has just changed the document's contents, the document context has been updated.
         
         var textColor: UIColor
-        var proxy = self.textDocumentProxy as! UITextDocumentProxy
+        let proxy = self.textDocumentProxy 
         if proxy.keyboardAppearance == UIKeyboardAppearance.Dark {
             textColor = UIColor.whiteColor()
         } else {
@@ -86,12 +86,12 @@ class KeyboardViewController: UIInputViewController {
     
     func createButtonWithTitle(title: String) -> UIButton {
         
-        let button = UIButton.buttonWithType(.System) as! UIButton
+        let button = UIButton(type: .System)
         button.frame = CGRectMake(0, 0, 20, 20)
         button.setTitle(title, forState: .Normal)
         button.sizeToFit()
         button.titleLabel?.font = UIFont.systemFontOfSize(15)
-        button.setTranslatesAutoresizingMaskIntoConstraints(false)
+        button.translatesAutoresizingMaskIntoConstraints = false
         button.backgroundColor = UIColor(white: 1.0, alpha: 1.0)
         button.setTitleColor(UIColor.darkGrayColor(), forState: .Normal)
         
@@ -103,7 +103,9 @@ class KeyboardViewController: UIInputViewController {
     func didTapButton(sender: AnyObject?) {
         
         let button = sender as! UIButton
-        var proxy = textDocumentProxy as! UITextDocumentProxy
+        let proxy = textDocumentProxy 
+        
+        
         
         if let title = button.titleForState(.Normal) {
             switch title {
@@ -123,11 +125,11 @@ class KeyboardViewController: UIInputViewController {
     
     func addIndividualButtonConstraints(buttons: [UIButton], mainView: UIView){
         
-        for (index, button) in enumerate(buttons) {
+        for (index, button) in buttons.enumerate() {
             
-            var topConstraint = NSLayoutConstraint(item: button, attribute: .Top, relatedBy: .Equal, toItem: mainView, attribute: .Top, multiplier: 1.0, constant: 1)
+            let topConstraint = NSLayoutConstraint(item: button, attribute: .Top, relatedBy: .Equal, toItem: mainView, attribute: .Top, multiplier: 1.0, constant: 1)
             
-            var bottomConstraint = NSLayoutConstraint(item: button, attribute: .Bottom, relatedBy: .Equal, toItem: mainView, attribute: .Bottom, multiplier: 1.0, constant: -1)
+            let bottomConstraint = NSLayoutConstraint(item: button, attribute: .Bottom, relatedBy: .Equal, toItem: mainView, attribute: .Bottom, multiplier: 1.0, constant: -1)
             
             var rightConstraint : NSLayoutConstraint!
             
@@ -154,7 +156,7 @@ class KeyboardViewController: UIInputViewController {
                 leftConstraint = NSLayoutConstraint(item: button, attribute: .Left, relatedBy: .Equal, toItem: prevtButton, attribute: .Right, multiplier: 1.0, constant: 1)
                 
                 let firstButton = buttons[0]
-                var widthConstraint = NSLayoutConstraint(item: firstButton, attribute: .Width, relatedBy: .Equal, toItem: button, attribute: .Width, multiplier: 1.0, constant: 0)
+                let widthConstraint = NSLayoutConstraint(item: firstButton, attribute: .Width, relatedBy: .Equal, toItem: button, attribute: .Width, multiplier: 1.0, constant: 0)
                 
                 widthConstraint.priority = 800
                 mainView.addConstraint(widthConstraint)
@@ -167,10 +169,10 @@ class KeyboardViewController: UIInputViewController {
     
     func addConstraintsToInputView(inputView: UIView, rowViews: [UIView]){
         
-        for (index, rowView) in enumerate(rowViews) {
-            var rightSideConstraint = NSLayoutConstraint(item: rowView, attribute: .Right, relatedBy: .Equal, toItem: inputView, attribute: .Right, multiplier: 1.0, constant: -1)
+        for (index, rowView) in rowViews.enumerate() {
+            let rightSideConstraint = NSLayoutConstraint(item: rowView, attribute: .Right, relatedBy: .Equal, toItem: inputView, attribute: .Right, multiplier: 1.0, constant: -1)
             
-            var leftConstraint = NSLayoutConstraint(item: rowView, attribute: .Left, relatedBy: .Equal, toItem: inputView, attribute: .Left, multiplier: 1.0, constant: 1)
+            let leftConstraint = NSLayoutConstraint(item: rowView, attribute: .Left, relatedBy: .Equal, toItem: inputView, attribute: .Left, multiplier: 1.0, constant: 1)
             
             inputView.addConstraints([leftConstraint, rightSideConstraint])
             
@@ -185,7 +187,7 @@ class KeyboardViewController: UIInputViewController {
                 topConstraint = NSLayoutConstraint(item: rowView, attribute: .Top, relatedBy: .Equal, toItem: prevRow, attribute: .Bottom, multiplier: 1.0, constant: 0)
                 
                 let firstRow = rowViews[0]
-                var heightConstraint = NSLayoutConstraint(item: firstRow, attribute: .Height, relatedBy: .Equal, toItem: rowView, attribute: .Height, multiplier: 1.0, constant: 0)
+                let heightConstraint = NSLayoutConstraint(item: firstRow, attribute: .Height, relatedBy: .Equal, toItem: rowView, attribute: .Height, multiplier: 1.0, constant: 0)
                 
                 heightConstraint.priority = 800
                 inputView.addConstraint(heightConstraint)
