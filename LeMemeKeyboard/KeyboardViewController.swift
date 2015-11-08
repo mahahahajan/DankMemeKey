@@ -101,7 +101,6 @@ class KeyboardViewController: UIInputViewController {
         let buttonImage = UIImage(named: "3a5.jpg")! as UIImage
         
         button.setImage( buttonImage, forState: UIControlState.Normal)
-        UIPasteboard.generalPasteboard().image = buttonImage;
         
         button.addTarget(self, action: "didTapButton:", forControlEvents: .TouchUpInside)
         
