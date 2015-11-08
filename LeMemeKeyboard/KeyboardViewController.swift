@@ -11,8 +11,10 @@ import UIKit
 class KeyboardViewController: UIInputViewController {
     
     var name = ""
-
+    var buttonImage:UIImage!
+    
     @IBOutlet var nextKeyboardButton: UIButton!
+    
     
     override func updateViewConstraints() {
         super.updateViewConstraints()
@@ -107,7 +109,7 @@ class KeyboardViewController: UIInputViewController {
             name = "22118345.jpg"
         }
        
-        let buttonImage = UIImage(named: name) as UIImage!
+        buttonImage = UIImage(named: name)! as UIImage
         
         button.setImage( buttonImage, forState: UIControlState.Normal)
         
@@ -133,7 +135,9 @@ class KeyboardViewController: UIInputViewController {
             case "CHG" :
                 self.advanceToNextInputMode()
             default :
-                proxy.insertText(title)
+                let pasteboard = UIPasteboard.generalPasteboard()
+                pasteboard.image = buttonImage
+                
             }
         }
     }
