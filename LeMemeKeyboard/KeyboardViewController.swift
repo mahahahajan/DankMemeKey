@@ -86,6 +86,8 @@ class KeyboardViewController: UIInputViewController {
     
     func createButtonWithTitle(title: String) -> UIButton {
         
+       
+        
         let button = UIButton(type: .System)
         button.frame = CGRectMake(0, 0, 20, 20)
         button.setTitle(title, forState: .Normal)
@@ -94,6 +96,9 @@ class KeyboardViewController: UIInputViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.backgroundColor = UIColor(white: 1.0, alpha: 1.0)
         button.setTitleColor(UIColor.darkGrayColor(), forState: .Normal)
+        
+        let buttonImage = UIImage(named: "playerShip3_green")! as UIImage
+        button.setImage( buttonImage, forState: UIControlState.Normal)
         
         button.addTarget(self, action: "didTapButton:", forControlEvents: .TouchUpInside)
         
