@@ -9,6 +9,8 @@
 import UIKit
 
 class KeyboardViewController: UIInputViewController {
+    
+    var name = ""
 
     @IBOutlet var nextKeyboardButton: UIButton!
     
@@ -21,27 +23,24 @@ class KeyboardViewController: UIInputViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let buttonTitles1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"]
+        let buttonTitles1 = ["1", "2", "3", "4"]
         let buttonTitles2 = ["A", "S", "D", "F", "G", "H", "J", "K", "L"]
-        let buttonTitles3 = ["CP", "Z", "X", "C", "V", "B", "N", "M", "BP"]
         let buttonTitles4 = ["CHG", "SPACE", "RETURN"]
         
         let row1 = createRowOfButtons(buttonTitles1)
         let row2 = createRowOfButtons(buttonTitles2)
-        let row3 = createRowOfButtons(buttonTitles3)
         let row4 = createRowOfButtons(buttonTitles4)
         
         self.view.addSubview(row1)
         self.view.addSubview(row2)
-        self.view.addSubview(row3)
+        
         self.view.addSubview(row4)
         
         row1.translatesAutoresizingMaskIntoConstraints = false
         row2.translatesAutoresizingMaskIntoConstraints = false
-        row3.translatesAutoresizingMaskIntoConstraints = false
         row4.translatesAutoresizingMaskIntoConstraints = false
         
-        addConstraintsToInputView(self.view, rowViews: [row1, row2, row3, row4])
+        addConstraintsToInputView(self.view, rowViews: [row1, row2, row4])
     }
     
     func createRowOfButtons(buttonTitles: [NSString]) -> UIView {
@@ -86,7 +85,7 @@ class KeyboardViewController: UIInputViewController {
     
     func createButtonWithTitle(title: String) -> UIButton {
         
-       
+        
         
         let button = UIButton(type: .System)
         button.frame = CGRectMake(0, 0, 20, 20)
@@ -97,8 +96,12 @@ class KeyboardViewController: UIInputViewController {
         button.backgroundColor = UIColor(white: 1.0, alpha: 1.0)
         button.setTitleColor(UIColor.darkGrayColor(), forState: .Normal)
         
-        let buttonImage = UIImage(named: "playerShip3_green")! as UIImage
+        
+       
+        let buttonImage = UIImage(named: "3a5.jpg")! as UIImage
+        
         button.setImage( buttonImage, forState: UIControlState.Normal)
+        UIPasteboard.generalPasteboard().image = buttonImage;
         
         button.addTarget(self, action: "didTapButton:", forControlEvents: .TouchUpInside)
         
