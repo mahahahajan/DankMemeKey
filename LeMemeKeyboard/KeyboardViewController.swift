@@ -87,7 +87,7 @@ class KeyboardViewController: UIInputViewController {
         
         
         
-        let button = UIButton(type: .System)
+        let button = UIButton(type: .Custom)
         button.frame = CGRectMake(0, 0, 20, 20)
         button.setTitle(title, forState: .Normal)
         button.sizeToFit()
@@ -96,9 +96,18 @@ class KeyboardViewController: UIInputViewController {
         button.backgroundColor = UIColor(white: 1.0, alpha: 1.0)
         button.setTitleColor(UIColor.darkGrayColor(), forState: .Normal)
         
-        
+        if(title == "1"){
+            name = "3a5.jpg"
+        }
+        else if(title == "2")
+        {
+            name = "3cd8a33a.png"
+        }
+        else{
+            name = "22118345.jpg"
+        }
        
-        let buttonImage = UIImage(named: "3a5.jpg")! as UIImage
+        let buttonImage = UIImage(named: name) as UIImage!
         
         button.setImage( buttonImage, forState: UIControlState.Normal)
         
@@ -110,9 +119,8 @@ class KeyboardViewController: UIInputViewController {
     func didTapButton(sender: AnyObject?) {
         
         let button = sender as! UIButton
-        let proxy = textDocumentProxy 
         
-        
+        let proxy = textDocumentProxy
         
         if let title = button.titleForState(.Normal) {
             switch title {
