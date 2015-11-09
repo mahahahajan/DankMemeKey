@@ -7,43 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB4966771BEF566A00249276 /* 3a5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966521BEF566A00249276 /* 3a5.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB4966781BEF566A00249276 /* 3cd8a33a.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4966531BEF566A00249276 /* 3cd8a33a.png */; settings = {ASSET_TAGS = (); }; };
-		AB4966791BEF566A00249276 /* 6e8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966541BEF566A00249276 /* 6e8.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49667A1BEF566A00249276 /* 22118345.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966551BEF566A00249276 /* 22118345.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49667B1BEF566A00249276 /* 64662036.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966561BEF566A00249276 /* 64662036.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49667C1BEF566A00249276 /* 14294565452_b674a4a861_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966571BEF566A00249276 /* 14294565452_b674a4a861_z.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49667D1BEF566A00249276 /* ancient-aliens---illuminati_o_4369323.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966581BEF566A00249276 /* ancient-aliens---illuminati_o_4369323.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49667E1BEF566A00249276 /* angry_pepe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966591BEF566A00249276 /* angry_pepe.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49667F1BEF566A00249276 /* baby-memes-omg-cute-things-083012-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB49665A1BEF566A00249276 /* baby-memes-omg-cute-things-083012-10.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB4966801BEF566A00249276 /* BvKQELs.png in Resources */ = {isa = PBXBuildFile; fileRef = AB49665B1BEF566A00249276 /* BvKQELs.png */; settings = {ASSET_TAGS = (); }; };
-		AB4966811BEF566A00249276 /* c2d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB49665C1BEF566A00249276 /* c2d.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB4966821BEF566A00249276 /* dankmemepic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB49665D1BEF566A00249276 /* dankmemepic.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB4966831BEF566A00249276 /* deaf1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB49665E1BEF566A00249276 /* deaf1.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB4966841BEF566A00249276 /* DealWithIt-500x330.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB49665F1BEF566A00249276 /* DealWithIt-500x330.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB4966851BEF566A00249276 /* Dec813-funny-memes-63.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966601BEF566A00249276 /* Dec813-funny-memes-63.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB4966861BEF566A00249276 /* download (1).jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB4966611BEF566A00249276 /* download (1).jpe */; settings = {ASSET_TAGS = (); }; };
-		AB4966871BEF566A00249276 /* download (2).jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB4966621BEF566A00249276 /* download (2).jpe */; settings = {ASSET_TAGS = (); }; };
-		AB4966881BEF566A00249276 /* download (3).jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB4966631BEF566A00249276 /* download (3).jpe */; settings = {ASSET_TAGS = (); }; };
-		AB4966891BEF566A00249276 /* download (4).jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB4966641BEF566A00249276 /* download (4).jpe */; settings = {ASSET_TAGS = (); }; };
-		AB49668A1BEF566A00249276 /* download.jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB4966651BEF566A00249276 /* download.jpe */; settings = {ASSET_TAGS = (); }; };
-		AB49668B1BEF566A00249276 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4966661BEF566A00249276 /* download.png */; settings = {ASSET_TAGS = (); }; };
-		AB49668C1BEF566A00249276 /* fbd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966671BEF566A00249276 /* fbd.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49668D1BEF566A00249276 /* flat,800x800,075,t.u1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966681BEF566A00249276 /* flat,800x800,075,t.u1.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49668E1BEF566A00249276 /* I-Like-Yer-Style-Dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966691BEF566A00249276 /* I-Like-Yer-Style-Dude.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49668F1BEF566A00249276 /* il_570xN.770306005_2us4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB49666A1BEF566A00249276 /* il_570xN.770306005_2us4.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB4966901BEF566A00249276 /* images (1).jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB49666B1BEF566A00249276 /* images (1).jpe */; settings = {ASSET_TAGS = (); }; };
-		AB4966911BEF566A00249276 /* images (2).jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB49666C1BEF566A00249276 /* images (2).jpe */; settings = {ASSET_TAGS = (); }; };
-		AB4966921BEF566A00249276 /* images (3).jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB49666D1BEF566A00249276 /* images (3).jpe */; settings = {ASSET_TAGS = (); }; };
-		AB4966931BEF566A00249276 /* images (4).jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB49666E1BEF566A00249276 /* images (4).jpe */; settings = {ASSET_TAGS = (); }; };
-		AB4966941BEF566A00249276 /* images.jpe in Resources */ = {isa = PBXBuildFile; fileRef = AB49666F1BEF566A00249276 /* images.jpe */; settings = {ASSET_TAGS = (); }; };
-		AB4966951BEF566A00249276 /* impossibru.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966701BEF566A00249276 /* impossibru.jpeg */; settings = {ASSET_TAGS = (); }; };
-		AB4966961BEF566A00249276 /* JackieChan.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4966711BEF566A00249276 /* JackieChan.png */; settings = {ASSET_TAGS = (); }; };
-		AB4966971BEF566A00249276 /* oh-really.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4966721BEF566A00249276 /* oh-really.png */; settings = {ASSET_TAGS = (); }; };
-		AB4966981BEF566A00249276 /* orly_owl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966731BEF566A00249276 /* orly_owl.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB4966991BEF566A00249276 /* Pepe_7ba1f9_5547399.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966741BEF566A00249276 /* Pepe_7ba1f9_5547399.jpg */; settings = {ASSET_TAGS = (); }; };
-		AB49669A1BEF566A00249276 /* thug-life-meme-glasses.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966751BEF566A00249276 /* thug-life-meme-glasses.jpeg */; settings = {ASSET_TAGS = (); }; };
-		AB49669B1BEF566A00249276 /* tumblr_nn58tbQYWZ1titub2o1_500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB4966761BEF566A00249276 /* tumblr_nn58tbQYWZ1titub2o1_500.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABD6173C1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD6173B1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg */; };
+		ABE8E5A01BEF7230006DE967 /* 3a5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E59F1BEF7230006DE967 /* 3a5.jpg */; };
+		ABE8E5A21BEF7242006DE967 /* 3cd8a33a.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5A11BEF7242006DE967 /* 3cd8a33a.png */; };
+		ABE8E5A41BEF724D006DE967 /* 6e8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5A31BEF724D006DE967 /* 6e8.jpg */; };
+		ABE8E5A61BEF7257006DE967 /* 22118345.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5A51BEF7257006DE967 /* 22118345.jpg */; };
+		ABE8E5A81BEF9E94006DE967 /* baby-memes-omg-cute-things-083012-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5A71BEF9E94006DE967 /* baby-memes-omg-cute-things-083012-10.jpg */; };
+		ABE8E5AA1BEF9EA4006DE967 /* c2d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5A91BEF9EA4006DE967 /* c2d.jpg */; };
+		ABE8E5AC1BEF9EAF006DE967 /* DealWithIt-500x330.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5AB1BEF9EAF006DE967 /* DealWithIt-500x330.jpg */; };
+		ABE8E5AE1BEF9EC6006DE967 /* giphy-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5AD1BEF9EC6006DE967 /* giphy-4.gif */; };
+		ABE8E5B01BEF9ED1006DE967 /* giphy-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5AF1BEF9ED1006DE967 /* giphy-1.gif */; };
+		ABE8E5B21BEF9FE0006DE967 /* FqTzbuY.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5B11BEF9FE0006DE967 /* FqTzbuY.gif */; };
+		ABE8E5B41BEFA019006DE967 /* Return-arrow-icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5B31BEFA019006DE967 /* Return-arrow-icon.gif */; };
+		ABE8E5B71BEFA0B7006DE967 /* Dec813-funny-memes-63.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5B61BEFA0B7006DE967 /* Dec813-funny-memes-63.jpg */; };
+		ABE8E5B91BEFA0BF006DE967 /* 64662036.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5B81BEFA0BF006DE967 /* 64662036.jpg */; };
+		ABE8E5BD1BEFA14D006DE967 /* impossibru.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5BC1BEFA14D006DE967 /* impossibru.jpeg */; };
+		ABE8E5BF1BEFA258006DE967 /* oh-really.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5BE1BEFA258006DE967 /* oh-really.png */; };
+		ABE8E5C11BEFA2A0006DE967 /* classica_back-button-1_flat-square-white-on-yellow_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5C01BEFA2A0006DE967 /* classica_back-button-1_flat-square-white-on-yellow_512x512.png */; };
+		ABE8E5C31BEFAE24006DE967 /* JackieChan.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5C21BEFAE24006DE967 /* JackieChan.png */; };
+		ABE8E5C51BEFAEBA006DE967 /* images(1).jpe in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5C41BEFAEBA006DE967 /* images(1).jpe */; };
 		E66A075E1BEEA588000BFF3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A075D1BEEA588000BFF3B /* AppDelegate.swift */; };
 		E66A07601BEEA588000BFF3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A075F1BEEA588000BFF3B /* ViewController.swift */; };
 		E66A07631BEEA588000BFF3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66A07611BEEA588000BFF3B /* Main.storyboard */; };
@@ -86,43 +68,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AB4966521BEF566A00249276 /* 3a5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3a5.jpg; sourceTree = "<group>"; };
-		AB4966531BEF566A00249276 /* 3cd8a33a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3cd8a33a.png; sourceTree = "<group>"; };
-		AB4966541BEF566A00249276 /* 6e8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6e8.jpg; sourceTree = "<group>"; };
-		AB4966551BEF566A00249276 /* 22118345.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22118345.jpg; sourceTree = "<group>"; };
-		AB4966561BEF566A00249276 /* 64662036.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 64662036.jpg; sourceTree = "<group>"; };
-		AB4966571BEF566A00249276 /* 14294565452_b674a4a861_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14294565452_b674a4a861_z.jpg; sourceTree = "<group>"; };
-		AB4966581BEF566A00249276 /* ancient-aliens---illuminati_o_4369323.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ancient-aliens---illuminati_o_4369323.jpg"; sourceTree = "<group>"; };
-		AB4966591BEF566A00249276 /* angry_pepe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_pepe.jpg; sourceTree = "<group>"; };
-		AB49665A1BEF566A00249276 /* baby-memes-omg-cute-things-083012-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "baby-memes-omg-cute-things-083012-10.jpg"; sourceTree = "<group>"; };
-		AB49665B1BEF566A00249276 /* BvKQELs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BvKQELs.png; sourceTree = "<group>"; };
-		AB49665C1BEF566A00249276 /* c2d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c2d.jpg; sourceTree = "<group>"; };
-		AB49665D1BEF566A00249276 /* dankmemepic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dankmemepic.jpg; sourceTree = "<group>"; };
-		AB49665E1BEF566A00249276 /* deaf1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deaf1.jpg; sourceTree = "<group>"; };
-		AB49665F1BEF566A00249276 /* DealWithIt-500x330.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DealWithIt-500x330.jpg"; sourceTree = "<group>"; };
-		AB4966601BEF566A00249276 /* Dec813-funny-memes-63.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dec813-funny-memes-63.jpg"; sourceTree = "<group>"; };
-		AB4966611BEF566A00249276 /* download (1).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "download (1).jpe"; sourceTree = "<group>"; };
-		AB4966621BEF566A00249276 /* download (2).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "download (2).jpe"; sourceTree = "<group>"; };
-		AB4966631BEF566A00249276 /* download (3).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "download (3).jpe"; sourceTree = "<group>"; };
-		AB4966641BEF566A00249276 /* download (4).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "download (4).jpe"; sourceTree = "<group>"; };
-		AB4966651BEF566A00249276 /* download.jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = download.jpe; sourceTree = "<group>"; };
-		AB4966661BEF566A00249276 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
-		AB4966671BEF566A00249276 /* fbd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fbd.jpg; sourceTree = "<group>"; };
-		AB4966681BEF566A00249276 /* flat,800x800,075,t.u1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flat,800x800,075,t.u1.jpg"; sourceTree = "<group>"; };
-		AB4966691BEF566A00249276 /* I-Like-Yer-Style-Dude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I-Like-Yer-Style-Dude.jpg"; sourceTree = "<group>"; };
-		AB49666A1BEF566A00249276 /* il_570xN.770306005_2us4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = il_570xN.770306005_2us4.jpg; sourceTree = "<group>"; };
-		AB49666B1BEF566A00249276 /* images (1).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images (1).jpe"; sourceTree = "<group>"; };
-		AB49666C1BEF566A00249276 /* images (2).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images (2).jpe"; sourceTree = "<group>"; };
-		AB49666D1BEF566A00249276 /* images (3).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images (3).jpe"; sourceTree = "<group>"; };
-		AB49666E1BEF566A00249276 /* images (4).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images (4).jpe"; sourceTree = "<group>"; };
-		AB49666F1BEF566A00249276 /* images.jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = images.jpe; sourceTree = "<group>"; };
-		AB4966701BEF566A00249276 /* impossibru.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impossibru.jpeg; sourceTree = "<group>"; };
-		AB4966711BEF566A00249276 /* JackieChan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JackieChan.png; sourceTree = "<group>"; };
-		AB4966721BEF566A00249276 /* oh-really.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oh-really.png"; sourceTree = "<group>"; };
-		AB4966731BEF566A00249276 /* orly_owl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orly_owl.jpg; sourceTree = "<group>"; };
-		AB4966741BEF566A00249276 /* Pepe_7ba1f9_5547399.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pepe_7ba1f9_5547399.jpg; sourceTree = "<group>"; };
-		AB4966751BEF566A00249276 /* thug-life-meme-glasses.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thug-life-meme-glasses.jpeg"; sourceTree = "<group>"; };
-		AB4966761BEF566A00249276 /* tumblr_nn58tbQYWZ1titub2o1_500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tumblr_nn58tbQYWZ1titub2o1_500.jpg; sourceTree = "<group>"; };
+		ABD6173B1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I-Like-Yer-Style-Dude.jpg"; sourceTree = "<group>"; };
+		ABE8E59F1BEF7230006DE967 /* 3a5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3a5.jpg; sourceTree = "<group>"; };
+		ABE8E5A11BEF7242006DE967 /* 3cd8a33a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3cd8a33a.png; sourceTree = "<group>"; };
+		ABE8E5A31BEF724D006DE967 /* 6e8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6e8.jpg; sourceTree = "<group>"; };
+		ABE8E5A51BEF7257006DE967 /* 22118345.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22118345.jpg; sourceTree = "<group>"; };
+		ABE8E5A71BEF9E94006DE967 /* baby-memes-omg-cute-things-083012-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "baby-memes-omg-cute-things-083012-10.jpg"; sourceTree = "<group>"; };
+		ABE8E5A91BEF9EA4006DE967 /* c2d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c2d.jpg; sourceTree = "<group>"; };
+		ABE8E5AB1BEF9EAF006DE967 /* DealWithIt-500x330.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DealWithIt-500x330.jpg"; sourceTree = "<group>"; };
+		ABE8E5AD1BEF9EC6006DE967 /* giphy-4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "giphy-4.gif"; sourceTree = "<group>"; };
+		ABE8E5AF1BEF9ED1006DE967 /* giphy-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "giphy-1.gif"; sourceTree = "<group>"; };
+		ABE8E5B11BEF9FE0006DE967 /* FqTzbuY.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FqTzbuY.gif; sourceTree = "<group>"; };
+		ABE8E5B31BEFA019006DE967 /* Return-arrow-icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Return-arrow-icon.gif"; sourceTree = "<group>"; };
+		ABE8E5B51BEFA0AD006DE967 /* download (3).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "download (3).jpe"; sourceTree = "<group>"; };
+		ABE8E5B61BEFA0B7006DE967 /* Dec813-funny-memes-63.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dec813-funny-memes-63.jpg"; sourceTree = "<group>"; };
+		ABE8E5B81BEFA0BF006DE967 /* 64662036.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 64662036.jpg; sourceTree = "<group>"; };
+		ABE8E5BA1BEFA140006DE967 /* images (2).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images (2).jpe"; sourceTree = "<group>"; };
+		ABE8E5BB1BEFA146006DE967 /* images(3).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images(3).jpe"; sourceTree = "<group>"; };
+		ABE8E5BC1BEFA14D006DE967 /* impossibru.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impossibru.jpeg; sourceTree = "<group>"; };
+		ABE8E5BE1BEFA258006DE967 /* oh-really.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oh-really.png"; sourceTree = "<group>"; };
+		ABE8E5C01BEFA2A0006DE967 /* classica_back-button-1_flat-square-white-on-yellow_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classica_back-button-1_flat-square-white-on-yellow_512x512.png"; sourceTree = "<group>"; };
+		ABE8E5C21BEFAE24006DE967 /* JackieChan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JackieChan.png; sourceTree = "<group>"; };
+		ABE8E5C41BEFAEBA006DE967 /* images(1).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images(1).jpe"; sourceTree = "<group>"; };
 		E66A07581BEEA588000BFF3B /* DankMemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DankMemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66A075C1BEEA588000BFF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E66A075D1BEEA588000BFF3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -242,43 +209,28 @@
 		E670BB391BEF4EFD002E32BD /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				AB4966521BEF566A00249276 /* 3a5.jpg */,
-				AB4966531BEF566A00249276 /* 3cd8a33a.png */,
-				AB4966541BEF566A00249276 /* 6e8.jpg */,
-				AB4966551BEF566A00249276 /* 22118345.jpg */,
-				AB4966561BEF566A00249276 /* 64662036.jpg */,
-				AB4966571BEF566A00249276 /* 14294565452_b674a4a861_z.jpg */,
-				AB4966581BEF566A00249276 /* ancient-aliens---illuminati_o_4369323.jpg */,
-				AB4966591BEF566A00249276 /* angry_pepe.jpg */,
-				AB49665A1BEF566A00249276 /* baby-memes-omg-cute-things-083012-10.jpg */,
-				AB49665B1BEF566A00249276 /* BvKQELs.png */,
-				AB49665C1BEF566A00249276 /* c2d.jpg */,
-				AB49665D1BEF566A00249276 /* dankmemepic.jpg */,
-				AB49665E1BEF566A00249276 /* deaf1.jpg */,
-				AB49665F1BEF566A00249276 /* DealWithIt-500x330.jpg */,
-				AB4966601BEF566A00249276 /* Dec813-funny-memes-63.jpg */,
-				AB4966611BEF566A00249276 /* download (1).jpe */,
-				AB4966621BEF566A00249276 /* download (2).jpe */,
-				AB4966631BEF566A00249276 /* download (3).jpe */,
-				AB4966641BEF566A00249276 /* download (4).jpe */,
-				AB4966651BEF566A00249276 /* download.jpe */,
-				AB4966661BEF566A00249276 /* download.png */,
-				AB4966671BEF566A00249276 /* fbd.jpg */,
-				AB4966681BEF566A00249276 /* flat,800x800,075,t.u1.jpg */,
-				AB4966691BEF566A00249276 /* I-Like-Yer-Style-Dude.jpg */,
-				AB49666A1BEF566A00249276 /* il_570xN.770306005_2us4.jpg */,
-				AB49666B1BEF566A00249276 /* images (1).jpe */,
-				AB49666C1BEF566A00249276 /* images (2).jpe */,
-				AB49666D1BEF566A00249276 /* images (3).jpe */,
-				AB49666E1BEF566A00249276 /* images (4).jpe */,
-				AB49666F1BEF566A00249276 /* images.jpe */,
-				AB4966701BEF566A00249276 /* impossibru.jpeg */,
-				AB4966711BEF566A00249276 /* JackieChan.png */,
-				AB4966721BEF566A00249276 /* oh-really.png */,
-				AB4966731BEF566A00249276 /* orly_owl.jpg */,
-				AB4966741BEF566A00249276 /* Pepe_7ba1f9_5547399.jpg */,
-				AB4966751BEF566A00249276 /* thug-life-meme-glasses.jpeg */,
-				AB4966761BEF566A00249276 /* tumblr_nn58tbQYWZ1titub2o1_500.jpg */,
+				ABD6173B1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg */,
+				ABE8E5C21BEFAE24006DE967 /* JackieChan.png */,
+				ABE8E5C41BEFAEBA006DE967 /* images(1).jpe */,
+				ABE8E5A71BEF9E94006DE967 /* baby-memes-omg-cute-things-083012-10.jpg */,
+				ABE8E59F1BEF7230006DE967 /* 3a5.jpg */,
+				ABE8E5A11BEF7242006DE967 /* 3cd8a33a.png */,
+				ABE8E5A31BEF724D006DE967 /* 6e8.jpg */,
+				ABE8E5B31BEFA019006DE967 /* Return-arrow-icon.gif */,
+				ABE8E5B81BEFA0BF006DE967 /* 64662036.jpg */,
+				ABE8E5A51BEF7257006DE967 /* 22118345.jpg */,
+				ABE8E5B51BEFA0AD006DE967 /* download (3).jpe */,
+				ABE8E5BC1BEFA14D006DE967 /* impossibru.jpeg */,
+				ABE8E5BA1BEFA140006DE967 /* images (2).jpe */,
+				ABE8E5BB1BEFA146006DE967 /* images(3).jpe */,
+				ABE8E5BE1BEFA258006DE967 /* oh-really.png */,
+				ABE8E5AB1BEF9EAF006DE967 /* DealWithIt-500x330.jpg */,
+				ABE8E5AD1BEF9EC6006DE967 /* giphy-4.gif */,
+				ABE8E5B61BEFA0B7006DE967 /* Dec813-funny-memes-63.jpg */,
+				ABE8E5AF1BEF9ED1006DE967 /* giphy-1.gif */,
+				ABE8E5A91BEF9EA4006DE967 /* c2d.jpg */,
+				ABE8E5C01BEFA2A0006DE967 /* classica_back-button-1_flat-square-white-on-yellow_512x512.png */,
+				ABE8E5B11BEF9FE0006DE967 /* FqTzbuY.gif */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -353,6 +305,7 @@
 				TargetAttributes = {
 					E66A07571BEEA588000BFF3B = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = HXAUJAN47Z;
 					};
 					E66A076C1BEEA588000BFF3B = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -405,43 +358,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB4966901BEF566A00249276 /* images (1).jpe in Resources */,
-				AB4966821BEF566A00249276 /* dankmemepic.jpg in Resources */,
-				AB49667B1BEF566A00249276 /* 64662036.jpg in Resources */,
-				AB4966891BEF566A00249276 /* download (4).jpe in Resources */,
-				AB49668D1BEF566A00249276 /* flat,800x800,075,t.u1.jpg in Resources */,
-				AB49667E1BEF566A00249276 /* angry_pepe.jpg in Resources */,
-				AB4966921BEF566A00249276 /* images (3).jpe in Resources */,
-				AB4966851BEF566A00249276 /* Dec813-funny-memes-63.jpg in Resources */,
-				AB49667F1BEF566A00249276 /* baby-memes-omg-cute-things-083012-10.jpg in Resources */,
-				AB4966881BEF566A00249276 /* download (3).jpe in Resources */,
-				AB4966931BEF566A00249276 /* images (4).jpe in Resources */,
-				AB49667C1BEF566A00249276 /* 14294565452_b674a4a861_z.jpg in Resources */,
-				AB49669A1BEF566A00249276 /* thug-life-meme-glasses.jpeg in Resources */,
-				AB49669B1BEF566A00249276 /* tumblr_nn58tbQYWZ1titub2o1_500.jpg in Resources */,
-				AB49668F1BEF566A00249276 /* il_570xN.770306005_2us4.jpg in Resources */,
-				AB4966801BEF566A00249276 /* BvKQELs.png in Resources */,
-				AB4966831BEF566A00249276 /* deaf1.jpg in Resources */,
-				AB4966791BEF566A00249276 /* 6e8.jpg in Resources */,
-				AB49668E1BEF566A00249276 /* I-Like-Yer-Style-Dude.jpg in Resources */,
-				AB4966991BEF566A00249276 /* Pepe_7ba1f9_5547399.jpg in Resources */,
-				AB49668B1BEF566A00249276 /* download.png in Resources */,
-				AB4966781BEF566A00249276 /* 3cd8a33a.png in Resources */,
-				AB4966911BEF566A00249276 /* images (2).jpe in Resources */,
-				AB49667A1BEF566A00249276 /* 22118345.jpg in Resources */,
-				AB4966871BEF566A00249276 /* download (2).jpe in Resources */,
-				AB4966771BEF566A00249276 /* 3a5.jpg in Resources */,
-				AB4966941BEF566A00249276 /* images.jpe in Resources */,
-				AB49667D1BEF566A00249276 /* ancient-aliens---illuminati_o_4369323.jpg in Resources */,
-				AB4966951BEF566A00249276 /* impossibru.jpeg in Resources */,
-				AB4966861BEF566A00249276 /* download (1).jpe in Resources */,
-				AB49668A1BEF566A00249276 /* download.jpe in Resources */,
-				AB49668C1BEF566A00249276 /* fbd.jpg in Resources */,
-				AB4966961BEF566A00249276 /* JackieChan.png in Resources */,
-				AB4966981BEF566A00249276 /* orly_owl.jpg in Resources */,
-				AB4966971BEF566A00249276 /* oh-really.png in Resources */,
-				AB4966841BEF566A00249276 /* DealWithIt-500x330.jpg in Resources */,
-				AB4966811BEF566A00249276 /* c2d.jpg in Resources */,
+				ABE8E5B21BEF9FE0006DE967 /* FqTzbuY.gif in Resources */,
+				ABE8E5AC1BEF9EAF006DE967 /* DealWithIt-500x330.jpg in Resources */,
+				ABE8E5AE1BEF9EC6006DE967 /* giphy-4.gif in Resources */,
+				ABE8E5B41BEFA019006DE967 /* Return-arrow-icon.gif in Resources */,
+				ABE8E5A21BEF7242006DE967 /* 3cd8a33a.png in Resources */,
+				ABE8E5C31BEFAE24006DE967 /* JackieChan.png in Resources */,
+				ABE8E5A81BEF9E94006DE967 /* baby-memes-omg-cute-things-083012-10.jpg in Resources */,
+				ABE8E5BD1BEFA14D006DE967 /* impossibru.jpeg in Resources */,
+				ABE8E5C11BEFA2A0006DE967 /* classica_back-button-1_flat-square-white-on-yellow_512x512.png in Resources */,
+				ABE8E5BF1BEFA258006DE967 /* oh-really.png in Resources */,
+				ABE8E5A41BEF724D006DE967 /* 6e8.jpg in Resources */,
+				ABE8E5B71BEFA0B7006DE967 /* Dec813-funny-memes-63.jpg in Resources */,
+				ABE8E5AA1BEF9EA4006DE967 /* c2d.jpg in Resources */,
+				ABE8E5C51BEFAEBA006DE967 /* images(1).jpe in Resources */,
+				ABE8E5B01BEF9ED1006DE967 /* giphy-1.gif in Resources */,
+				ABD6173C1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg in Resources */,
+				ABE8E5B91BEFA0BF006DE967 /* 64662036.jpg in Resources */,
+				ABE8E5A01BEF7230006DE967 /* 3a5.jpg in Resources */,
+				ABE8E5A61BEF7257006DE967 /* 22118345.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,11 +531,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DankMemes/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mahahahajan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -608,11 +546,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DankMemes/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mahahahajan.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -11,10 +11,9 @@ import UIKit
 class KeyboardViewController: UIInputViewController {
     
     var name = ""
-    var buttonImage:UIImage!
+    var buttonImage : UIImage!
     
     @IBOutlet var nextKeyboardButton: UIButton!
-    
     
     override func updateViewConstraints() {
         super.updateViewConstraints()
@@ -26,23 +25,24 @@ class KeyboardViewController: UIInputViewController {
         super.viewDidLoad()
         
         let buttonTitles1 = ["1", "2", "3", "4"]
-        let buttonTitles2 = ["A", "S", "D", "F", "G", "H", "J", "K", "L"]
-        let buttonTitles4 = ["CHG", "SPACE", "RETURN"]
+        let buttonTitles2 = ["A", "S", "D", "F"]
+        let buttonTitles3 = ["CHG","Z","X", "C"]
         
+        print("yay")
         let row1 = createRowOfButtons(buttonTitles1)
         let row2 = createRowOfButtons(buttonTitles2)
-        let row4 = createRowOfButtons(buttonTitles4)
+        let row3 = createRowOfButtons(buttonTitles3)
         
         self.view.addSubview(row1)
         self.view.addSubview(row2)
         
-        self.view.addSubview(row4)
+        self.view.addSubview(row3)
         
         row1.translatesAutoresizingMaskIntoConstraints = false
         row2.translatesAutoresizingMaskIntoConstraints = false
-        row4.translatesAutoresizingMaskIntoConstraints = false
+        row3.translatesAutoresizingMaskIntoConstraints = false
         
-        addConstraintsToInputView(self.view, rowViews: [row1, row2, row4])
+        addConstraintsToInputView(self.view, rowViews: [row1, row2, row3])
     }
     
     func createRowOfButtons(buttonTitles: [NSString]) -> UIView {
@@ -52,7 +52,7 @@ class KeyboardViewController: UIInputViewController {
         
         for buttonTitle in buttonTitles{
             
-            let button = createButtonWithTitle(buttonTitle as String)
+            let button = createButtonWithTitle(buttonTitle as String) // 1
             buttons.append(button)
             keyboardRowView.addSubview(button)
         }
@@ -75,7 +75,7 @@ class KeyboardViewController: UIInputViewController {
         // The app has just changed the document's contents, the document context has been updated.
         
         var textColor: UIColor
-        let proxy = self.textDocumentProxy 
+        let proxy = self.textDocumentProxy
         if proxy.keyboardAppearance == UIKeyboardAppearance.Dark {
             textColor = UIColor.whiteColor()
         } else {
@@ -89,15 +89,35 @@ class KeyboardViewController: UIInputViewController {
         
         
         
-        let button = UIButton(type: .Custom)
-        button.frame = CGRectMake(0, 0, 20, 20)
-        button.setTitle(title, forState: .Normal)
-        button.sizeToFit()
-        button.titleLabel?.font = UIFont.systemFontOfSize(15)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = UIColor(white: 1.0, alpha: 1.0)
-        button.setTitleColor(UIColor.darkGrayColor(), forState: .Normal)
+        let button1 = UIButton(type: .Custom)
+        button1.frame = CGRectMake(0, 0, 20, 20)
+        button1.setTitle(title, forState: .Normal)
+        button1.sizeToFit()
+        button1.titleLabel?.font = UIFont.systemFontOfSize(15)
+        button1.translatesAutoresizingMaskIntoConstraints = false
+        button1.backgroundColor = UIColor(white: 1.0, alpha: 1.0)
+        button1.setTitleColor(UIColor.darkGrayColor(), forState: .Normal)
         
+        
+        
+        
+        
+        
+        buttonImage = UIImage(named: getNameFromIndex(title))! as UIImage
+        
+        button1.setImage(buttonImage, forState: UIControlState.Normal)
+        button1.userInteractionEnabled = true
+        
+        
+        button1.addTarget(self, action: "didTapButton:", forControlEvents: UIControlEvents.TouchUpInside)
+        
+        return button1
+        
+    }
+    
+    func getNameFromIndex(title: String) -> String {
+        
+        var name: String!
         if(title == "1"){
             name = "3a5.jpg"
         }
@@ -105,22 +125,56 @@ class KeyboardViewController: UIInputViewController {
         {
             name = "3cd8a33a.png"
         }
-        else{
+        else if(title == "A"){
             name = "22118345.jpg"
         }
-       
-        buttonImage = UIImage(named: name)! as UIImage
-        
-        button.setImage( buttonImage, forState: UIControlState.Normal)
-        
-        button.addTarget(self, action: "didTapButton:", forControlEvents: .TouchUpInside)
-        
-        return button
+        else if(title == "3")
+        {
+            name = "6e8.jpg"
+        }
+        else if(title == "4")
+        {
+            name = "giphy-1.gif"
+        }
+        else if(title == "S")
+        {
+            name = "c2d.jpg"
+        }
+        else if(title == "D")
+        {
+            name = "giphy-4.gif"
+        }
+        else if(title == "F")
+        {
+            name = "64662036.jpg"
+        }
+        else if(title == "CHG")
+        {
+            name = "classica_back-button-1_flat-square-white-on-yellow_512x512.png"
+        }
+        else if(title == "Z")
+        {
+            name = "Dec813-funny-memes-63.jpg"
+        }
+        else if(title == "X")
+        {
+            name = "impossibru.jpeg"
+        }
+        else if(title == "C")
+        {
+            name = "oh-really.png"
+        }
+        else{
+            name="I-Like-Yer-Style-Dude.jpg"
+        }
+        return name
     }
     
-    func didTapButton(sender: AnyObject?) {
+        func didTapButton(sender: UIButton!) {
         
-        let button = sender as! UIButton
+        print(("REACHED HERE"))
+        
+        let button : UIButton = sender!
         
         let proxy = textDocumentProxy
         
@@ -135,9 +189,25 @@ class KeyboardViewController: UIInputViewController {
             case "CHG" :
                 self.advanceToNextInputMode()
             default :
-                let pasteboard = UIPasteboard.generalPasteboard()
-                pasteboard.image = buttonImage
+                let imagec = UIImage(named: getNameFromIndex(title))
+                // let pasteboard = UIPasteboard.generalPasteboard()
+                // pasteboard.image = imagec
                 
+                // let data = NSData(data: UIImagePNGRepresentation(imagec!)! )
+                // UIPasteboard.generalPasteboard().setData(data, forPasteboardType: "3a5.jpg")
+                
+                let pbWrapped: UIPasteboard? = UIPasteboard.generalPasteboard()
+                if let pb = pbWrapped {
+                    let type = UIPasteboardTypeListImage[0] as! String
+                    if (imagec != nil) {
+                        pb.setData(UIImagePNGRepresentation(imagec!)!, forPasteboardType: type)
+                        let readDataWrapped: NSData? = pb.dataForPasteboardType(type)
+                        if let readData = readDataWrapped {
+                            let readImage = UIImage(data: readData, scale: 2)
+                            print("\(imagec) == \(pb.image) == \(readImage)")
+                        }
+                    }
+                }
             }
         }
     }
