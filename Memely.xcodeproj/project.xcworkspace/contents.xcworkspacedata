@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DankMemes.xcodeproj">
+      location = "self:/Users/Medusa/Documents/DankMemeKey/Memely.xcodeproj">
    </FileRef>
 </Workspace>
