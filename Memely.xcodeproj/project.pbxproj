@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ABD6173C1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD6173B1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg */; };
+		ABDF85681BF2DB8F004DAE91 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = ABDF85671BF2DB8F004DAE91 /* welcome.png */; };
+		ABE3FB571BF30D190021FEB0 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB561BF30D190021FEB0 /* welcome.jpg */; };
 		ABE8E5A01BEF7230006DE967 /* 3a5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E59F1BEF7230006DE967 /* 3a5.jpg */; };
 		ABE8E5A21BEF7242006DE967 /* 3cd8a33a.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5A11BEF7242006DE967 /* 3cd8a33a.png */; };
 		ABE8E5A41BEF724D006DE967 /* 6e8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5A31BEF724D006DE967 /* 6e8.jpg */; };
@@ -80,6 +82,8 @@
 
 /* Begin PBXFileReference section */
 		ABD6173B1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I-Like-Yer-Style-Dude.jpg"; sourceTree = "<group>"; };
+		ABDF85671BF2DB8F004DAE91 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome.png; path = ../LeMemeKeyboard/welcome.png; sourceTree = "<group>"; };
+		ABE3FB561BF30D190021FEB0 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome.jpg; sourceTree = "<group>"; };
 		ABE8E59F1BEF7230006DE967 /* 3a5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3a5.jpg; sourceTree = "<group>"; };
 		ABE8E5A11BEF7242006DE967 /* 3cd8a33a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3cd8a33a.png; sourceTree = "<group>"; };
 		ABE8E5A31BEF724D006DE967 /* 6e8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6e8.jpg; sourceTree = "<group>"; };
@@ -152,9 +156,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABDF85691BF2DB96004DAE91 /* Layout img */ = {
+			isa = PBXGroup;
+			children = (
+				ABE3FB561BF30D190021FEB0 /* welcome.jpg */,
+			);
+			name = "Layout img";
+			sourceTree = "<group>";
+		};
 		ABF59F7A1BF1813500F9EB1F /* AppIconFiles */ = {
 			isa = PBXGroup;
 			children = (
+				ABDF85691BF2DB96004DAE91 /* Layout img */,
 				ABF59F7B1BF1815100F9EB1F /* iphone29pt */,
 			);
 			name = AppIconFiles;
@@ -205,6 +218,7 @@
 				E66A075F1BEEA588000BFF3B /* ViewController.swift */,
 				E66A07611BEEA588000BFF3B /* Main.storyboard */,
 				E66A07641BEEA588000BFF3B /* Images.xcassets */,
+				ABDF85671BF2DB8F004DAE91 /* welcome.png */,
 				E66A07661BEEA588000BFF3B /* LaunchScreen.xib */,
 				E66A075B1BEEA588000BFF3B /* Supporting Files */,
 			);
@@ -406,6 +420,7 @@
 				ABF59F931BF1879300F9EB1F /* Icon-57@3x.png in Resources */,
 				ABF59F8B1BF1879300F9EB1F /* Icon-29.png in Resources */,
 				ABF59F8D1BF1879300F9EB1F /* Icon-29@3x.png in Resources */,
+				ABE3FB571BF30D190021FEB0 /* welcome.jpg in Resources */,
 				ABF59F911BF1879300F9EB1F /* Icon-57.png in Resources */,
 				ABF59F921BF1879300F9EB1F /* Icon-57@2x.png in Resources */,
 				ABF59F901BF1879300F9EB1F /* Icon-40@3x.png in Resources */,
@@ -424,6 +439,7 @@
 				ABE8E5B41BEFA019006DE967 /* Return-arrow-icon.gif in Resources */,
 				ABE8E5A21BEF7242006DE967 /* 3cd8a33a.png in Resources */,
 				ABE8E5C31BEFAE24006DE967 /* JackieChan.png in Resources */,
+				ABDF85681BF2DB8F004DAE91 /* welcome.png in Resources */,
 				ABE8E5A81BEF9E94006DE967 /* baby-memes-omg-cute-things-083012-10.jpg in Resources */,
 				ABE8E5BD1BEFA14D006DE967 /* impossibru.jpeg in Resources */,
 				ABE8E5C11BEFA2A0006DE967 /* classica_back-button-1_flat-square-white-on-yellow_512x512.png in Resources */,
