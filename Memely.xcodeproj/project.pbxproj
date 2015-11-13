@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB49B8C41BF66E0A0077150A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB49B8C31BF66E0A0077150A /* iAd.framework */; };
 		ABD6173C1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD6173B1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg */; };
 		ABDF85681BF2DB8F004DAE91 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = ABDF85671BF2DB8F004DAE91 /* welcome.png */; };
 		ABE3FB571BF30D190021FEB0 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB561BF30D190021FEB0 /* welcome.jpg */; };
+		ABE3FB591BF407440021FEB0 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB581BF407440021FEB0 /* Icon-72.png */; };
+		ABE3FB5B1BF4074A0021FEB0 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB5A1BF4074A0021FEB0 /* Icon-72@2x.png */; };
+		ABE3FB5E1BF407510021FEB0 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB5C1BF407510021FEB0 /* Icon-76.png */; };
+		ABE3FB5F1BF407510021FEB0 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB5D1BF407510021FEB0 /* Icon-76@2x.png */; };
 		ABE8E5A01BEF7230006DE967 /* 3a5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E59F1BEF7230006DE967 /* 3a5.jpg */; };
 		ABE8E5A21BEF7242006DE967 /* 3cd8a33a.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5A11BEF7242006DE967 /* 3cd8a33a.png */; };
 		ABE8E5A41BEF724D006DE967 /* 6e8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8E5A31BEF724D006DE967 /* 6e8.jpg */; };
@@ -81,9 +86,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB49B8C31BF66E0A0077150A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		ABD6173B1BEFBE0F00A78666 /* I-Like-Yer-Style-Dude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I-Like-Yer-Style-Dude.jpg"; sourceTree = "<group>"; };
 		ABDF85671BF2DB8F004DAE91 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome.png; path = ../LeMemeKeyboard/welcome.png; sourceTree = "<group>"; };
 		ABE3FB561BF30D190021FEB0 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome.jpg; sourceTree = "<group>"; };
+		ABE3FB581BF407440021FEB0 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		ABE3FB5A1BF4074A0021FEB0 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		ABE3FB5C1BF407510021FEB0 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		ABE3FB5D1BF407510021FEB0 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
 		ABE8E59F1BEF7230006DE967 /* 3a5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3a5.jpg; sourceTree = "<group>"; };
 		ABE8E5A11BEF7242006DE967 /* 3cd8a33a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3cd8a33a.png; sourceTree = "<group>"; };
 		ABE8E5A31BEF724D006DE967 /* 6e8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6e8.jpg; sourceTree = "<group>"; };
@@ -136,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB49B8C41BF66E0A0077150A /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +187,10 @@
 		ABF59F7B1BF1815100F9EB1F /* iphone29pt */ = {
 			isa = PBXGroup;
 			children = (
+				ABE3FB5C1BF407510021FEB0 /* Icon-76.png */,
+				ABE3FB5D1BF407510021FEB0 /* Icon-76@2x.png */,
+				ABE3FB5A1BF4074A0021FEB0 /* Icon-72@2x.png */,
+				ABE3FB581BF407440021FEB0 /* Icon-72.png */,
 				ABF59F941BF1890B00F9EB1F /* Icon-60@2x.png */,
 				ABF59F951BF1890B00F9EB1F /* Icon-60@3x.png */,
 				ABF59F821BF1879300F9EB1F /* Icon-29.png */,
@@ -194,6 +209,7 @@
 		E66A074F1BEEA588000BFF3B = {
 			isa = PBXGroup;
 			children = (
+				AB49B8C31BF66E0A0077150A /* iAd.framework */,
 				E66A075A1BEEA588000BFF3B /* DankMemes */,
 				E66A07701BEEA588000BFF3B /* DankMemesTests */,
 				E66A07821BEEA69B000BFF3B /* LeMemeKeyboard */,
@@ -414,7 +430,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE3FB5B1BF4074A0021FEB0 /* Icon-72@2x.png in Resources */,
 				ABF59F8E1BF1879300F9EB1F /* Icon-40.png in Resources */,
+				ABE3FB5E1BF407510021FEB0 /* Icon-76.png in Resources */,
 				ABF59F961BF1890B00F9EB1F /* Icon-60@2x.png in Resources */,
 				ABF59F8C1BF1879300F9EB1F /* Icon-29@2x.png in Resources */,
 				ABF59F931BF1879300F9EB1F /* Icon-57@3x.png in Resources */,
@@ -423,8 +441,10 @@
 				ABE3FB571BF30D190021FEB0 /* welcome.jpg in Resources */,
 				ABF59F911BF1879300F9EB1F /* Icon-57.png in Resources */,
 				ABF59F921BF1879300F9EB1F /* Icon-57@2x.png in Resources */,
+				ABE3FB591BF407440021FEB0 /* Icon-72.png in Resources */,
 				ABF59F901BF1879300F9EB1F /* Icon-40@3x.png in Resources */,
 				ABF59F8F1BF1879300F9EB1F /* Icon-40@2x.png in Resources */,
+				ABE3FB5F1BF407510021FEB0 /* Icon-76@2x.png in Resources */,
 				ABF59F971BF1890B00F9EB1F /* Icon-60@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
