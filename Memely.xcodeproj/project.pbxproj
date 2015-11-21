@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AB49B8C41BF66E0A0077150A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB49B8C31BF66E0A0077150A /* iAd.framework */; };
-		ABDF85681BF2DB8F004DAE91 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = ABDF85671BF2DB8F004DAE91 /* welcome.png */; };
 		ABE3FB571BF30D190021FEB0 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB561BF30D190021FEB0 /* welcome.jpg */; };
 		ABE3FB591BF407440021FEB0 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB581BF407440021FEB0 /* Icon-72.png */; };
 		ABE3FB5B1BF4074A0021FEB0 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB5A1BF4074A0021FEB0 /* Icon-72@2x.png */; };
@@ -137,7 +136,6 @@
 
 /* Begin PBXFileReference section */
 		AB49B8C31BF66E0A0077150A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		ABDF85671BF2DB8F004DAE91 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome.png; path = ../LeMemeKeyboard/welcome.png; sourceTree = "<group>"; };
 		ABE3FB561BF30D190021FEB0 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome.jpg; sourceTree = "<group>"; };
 		ABE3FB581BF407440021FEB0 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		ABE3FB5A1BF4074A0021FEB0 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
@@ -176,7 +174,7 @@
 		E633093C1C00FEE200C23269 /* JackieChan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JackieChan.png; sourceTree = "<group>"; };
 		E633093D1C00FEE200C23269 /* oh-really.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oh-really.png"; sourceTree = "<group>"; };
 		E633093E1C00FEE200C23269 /* Return-arrow-icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Return-arrow-icon.gif"; sourceTree = "<group>"; };
-		E633093F1C00FEE200C23269 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+		E633093F1C00FEE200C23269 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome.png; path = ../LeMemeKeyboard/Images/welcome.png; sourceTree = "<group>"; };
 		E66A07581BEEA588000BFF3B /* DankMemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DankMemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66A075C1BEEA588000BFF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E66A075D1BEEA588000BFF3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -282,7 +280,6 @@
 				E633093C1C00FEE200C23269 /* JackieChan.png */,
 				E633093D1C00FEE200C23269 /* oh-really.png */,
 				E633093E1C00FEE200C23269 /* Return-arrow-icon.gif */,
-				E633093F1C00FEE200C23269 /* welcome.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -315,7 +312,7 @@
 				E66A075F1BEEA588000BFF3B /* ViewController.swift */,
 				E66A07611BEEA588000BFF3B /* Main.storyboard */,
 				E66A07641BEEA588000BFF3B /* Images.xcassets */,
-				ABDF85671BF2DB8F004DAE91 /* welcome.png */,
+				E633093F1C00FEE200C23269 /* welcome.png */,
 				E66A07661BEEA588000BFF3B /* LaunchScreen.xib */,
 				E66A075B1BEEA588000BFF3B /* Supporting Files */,
 			);
@@ -559,7 +556,6 @@
 				E633097B1C00FEE200C23269 /* JackieChan.png in Resources */,
 				E63309571C00FEE200C23269 /* classica_back-button-1_flat-square-white-on-yellow_512x512.png in Resources */,
 				E63309511C00FEE200C23269 /* baby-memes-omg-cute-things-083012-10.jpg in Resources */,
-				ABDF85681BF2DB8F004DAE91 /* welcome.png in Resources */,
 				E633094E1C00FEE200C23269 /* 6e8.jpg in Resources */,
 				E63309721C00FEE200C23269 /* images(1).jpe in Resources */,
 				E633097E1C00FEE200C23269 /* oh-really.png in Resources */,
