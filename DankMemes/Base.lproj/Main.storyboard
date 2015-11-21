@@ -602,7 +602,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="PUp-ol-88l" kind="modal" id="MdA-A9-CqW"/>
+                                    <segue destination="c1v-EF-BV7" kind="modal" id="8Xz-PF-Og9"/>
                                 </connections>
                             </button>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="EGK-nx-dMH">
@@ -636,74 +636,6 @@
             <point key="canvasLocation" x="-50" y="952"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="sON-i6-w19">
-            <objects>
-                <viewController id="PUp-ol-88l" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="O9D-CR-0iQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="pt7-Iw-Hng"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rSw-J2-rOV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grey" translatesAutoresizingMaskIntoConstraints="NO" id="FxT-tL-F4G">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Choose Meme" translatesAutoresizingMaskIntoConstraints="NO" id="216-Ib-7d5">
-                                <rect key="frame" x="9" y="31" width="302" height="537"/>
-                                <animations/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose Your Meme" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MSp-o6-Y2s">
-                                <rect key="frame" x="0.0" y="20" width="321" height="35"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="QdM-im-3v0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-UltraLight" family="Apple SD Gothic Neo" pointSize="26"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3d-HT-cWg">
-                                <rect key="frame" x="132" y="54" width="56" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="pYI-TR-cDO" kind="modal" id="uea-ET-gf2"/>
-                                </connections>
-                            </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="6Ql-y2-njZ">
-                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
-                                <animations/>
-                            </adBannerView>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="MSp-o6-Y2s" firstAttribute="leading" secondItem="rSw-J2-rOV" secondAttribute="leadingMargin" constant="24" id="5o3-Ma-cKb"/>
-                            <constraint firstItem="MSp-o6-Y2s" firstAttribute="top" secondItem="O9D-CR-0iQ" secondAttribute="bottom" id="6PU-Rk-D5k"/>
-                            <constraint firstItem="FxT-tL-F4G" firstAttribute="leading" secondItem="rSw-J2-rOV" secondAttribute="leading" id="8xz-aA-seE"/>
-                            <constraint firstItem="MSp-o6-Y2s" firstAttribute="centerX" secondItem="s3d-HT-cWg" secondAttribute="centerX" id="9Ui-hd-CVK"/>
-                            <constraint firstItem="s3d-HT-cWg" firstAttribute="top" secondItem="MSp-o6-Y2s" secondAttribute="bottom" constant="-1" id="GEp-Dn-aff"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="6Ql-y2-njZ" secondAttribute="bottom" constant="-16" id="IUJ-E7-FWN"/>
-                            <constraint firstItem="6Ql-y2-njZ" firstAttribute="leading" secondItem="FxT-tL-F4G" secondAttribute="leading" id="Kgb-GN-k20"/>
-                            <constraint firstItem="216-Ib-7d5" firstAttribute="centerX" secondItem="s3d-HT-cWg" secondAttribute="centerX" id="RpH-dg-bWD"/>
-                            <constraint firstItem="216-Ib-7d5" firstAttribute="top" secondItem="O9D-CR-0iQ" secondAttribute="bottom" constant="11" id="Ugd-ZC-6Ub"/>
-                            <constraint firstAttribute="trailing" secondItem="FxT-tL-F4G" secondAttribute="trailing" id="bUZ-4y-hTB"/>
-                            <constraint firstItem="FxT-tL-F4G" firstAttribute="centerX" secondItem="s3d-HT-cWg" secondAttribute="centerX" id="f1r-gU-Mbj"/>
-                            <constraint firstItem="216-Ib-7d5" firstAttribute="leading" secondItem="rSw-J2-rOV" secondAttribute="leadingMargin" constant="-7" id="iAg-P4-ZV8"/>
-                            <constraint firstItem="216-Ib-7d5" firstAttribute="bottom" secondItem="pt7-Iw-Hng" secondAttribute="top" id="pXD-ko-Cs9"/>
-                            <constraint firstItem="FxT-tL-F4G" firstAttribute="top" secondItem="rSw-J2-rOV" secondAttribute="top" id="wXd-YM-pKU"/>
-                            <constraint firstItem="FxT-tL-F4G" firstAttribute="bottom" secondItem="pt7-Iw-Hng" secondAttribute="top" id="z9m-qF-MPp"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wzj-Yo-BOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="326" y="946"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="zJH-Z5-GDY">
             <objects>
                 <viewController id="pYI-TR-cDO" sceneMemberID="viewController">
@@ -723,25 +655,28 @@
                                 <rect key="frame" x="9" y="31" width="302" height="537"/>
                                 <animations/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose Your Meme" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pcu-Kq-nan">
-                                <rect key="frame" x="0.0" y="20" width="321" height="35"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="kkL-pX-RXv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-UltraLight" family="Apple SD Gothic Neo" pointSize="26"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etS-dJ-RnB">
                                 <rect key="frame" x="132" y="54" width="56" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="848-Xd-Fsl" kind="modal" id="OoV-wz-eY0"/>
+                                </connections>
                             </button>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="qwr-Tc-h3h">
                                 <rect key="frame" x="0.0" y="518" width="320" height="50"/>
                                 <animations/>
                             </adBannerView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Press The Back Arrow To Return To The Keyboard." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pcu-Kq-nan">
+                                <rect key="frame" x="-5" y="20" width="331" height="35"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="kkL-pX-RXv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-UltraLight" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -754,7 +689,7 @@
                             <constraint firstItem="L82-Ye-b4S" firstAttribute="top" secondItem="tiL-so-4UW" secondAttribute="top" id="SE7-O1-sKD"/>
                             <constraint firstItem="D8A-ef-VbW" firstAttribute="bottom" secondItem="xPc-6Z-sTE" secondAttribute="top" id="Vh1-hX-w79"/>
                             <constraint firstItem="D8A-ef-VbW" firstAttribute="centerX" secondItem="etS-dJ-RnB" secondAttribute="centerX" id="WKR-h9-HxC"/>
-                            <constraint firstItem="pcu-Kq-nan" firstAttribute="leading" secondItem="tiL-so-4UW" secondAttribute="leadingMargin" constant="24" id="cnL-sl-doo"/>
+                            <constraint firstItem="pcu-Kq-nan" firstAttribute="leading" secondItem="tiL-so-4UW" secondAttribute="leadingMargin" constant="-25" id="cnL-sl-doo"/>
                             <constraint firstItem="pcu-Kq-nan" firstAttribute="centerX" secondItem="etS-dJ-RnB" secondAttribute="centerX" id="hVi-h4-xEN"/>
                             <constraint firstItem="etS-dJ-RnB" firstAttribute="top" secondItem="pcu-Kq-nan" secondAttribute="bottom" constant="-1" id="lA8-0G-AQH"/>
                             <constraint firstItem="L82-Ye-b4S" firstAttribute="bottom" secondItem="xPc-6Z-sTE" secondAttribute="top" id="lK9-c6-C0m"/>
@@ -768,6 +703,142 @@
             </objects>
             <point key="canvasLocation" x="686" y="946"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="T2s-pz-exk">
+            <objects>
+                <viewController id="c1v-EF-BV7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="coo-NB-NGU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dhz-nI-mLT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ak5-Tq-cC2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grey" translatesAutoresizingMaskIntoConstraints="NO" id="QdP-at-8Vd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Choose Meme" translatesAutoresizingMaskIntoConstraints="NO" id="Amb-9l-wFs">
+                                <rect key="frame" x="9" y="31" width="302" height="537"/>
+                                <animations/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose Your Meme" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="svN-tL-JFG">
+                                <rect key="frame" x="-110" y="20" width="542" height="35"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="RWq-cf-9oj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-UltraLight" family="Apple SD Gothic Neo" pointSize="26"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpp-zm-1qY">
+                                <rect key="frame" x="132" y="54" width="56" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="pYI-TR-cDO" kind="modal" id="32u-2c-bqe"/>
+                                </connections>
+                            </button>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="xfc-4c-VKs">
+                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <animations/>
+                            </adBannerView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Amb-9l-wFs" firstAttribute="leading" secondItem="ak5-Tq-cC2" secondAttribute="leadingMargin" constant="-7" id="89p-yH-Ibb"/>
+                            <constraint firstItem="Lpp-zm-1qY" firstAttribute="top" secondItem="svN-tL-JFG" secondAttribute="bottom" constant="-1" id="EtH-WC-A2c"/>
+                            <constraint firstItem="Amb-9l-wFs" firstAttribute="top" secondItem="coo-NB-NGU" secondAttribute="bottom" constant="11" id="M2b-6P-fos"/>
+                            <constraint firstItem="Amb-9l-wFs" firstAttribute="bottom" secondItem="Dhz-nI-mLT" secondAttribute="top" id="NHk-ig-RwO"/>
+                            <constraint firstItem="QdP-at-8Vd" firstAttribute="leading" secondItem="ak5-Tq-cC2" secondAttribute="leading" id="NN9-uV-aR4"/>
+                            <constraint firstItem="svN-tL-JFG" firstAttribute="leading" secondItem="ak5-Tq-cC2" secondAttribute="leadingMargin" constant="24" id="OaU-3k-YRs"/>
+                            <constraint firstAttribute="trailing" secondItem="QdP-at-8Vd" secondAttribute="trailing" id="fMU-Lq-18D"/>
+                            <constraint firstItem="svN-tL-JFG" firstAttribute="top" secondItem="coo-NB-NGU" secondAttribute="bottom" id="hcN-y6-4um"/>
+                            <constraint firstItem="QdP-at-8Vd" firstAttribute="centerX" secondItem="Lpp-zm-1qY" secondAttribute="centerX" id="k55-D6-e3U"/>
+                            <constraint firstItem="svN-tL-JFG" firstAttribute="centerX" secondItem="Lpp-zm-1qY" secondAttribute="centerX" id="mik-tn-LyX"/>
+                            <constraint firstItem="Amb-9l-wFs" firstAttribute="centerX" secondItem="Lpp-zm-1qY" secondAttribute="centerX" id="uoa-Nf-6za"/>
+                            <constraint firstItem="xfc-4c-VKs" firstAttribute="leading" secondItem="QdP-at-8Vd" secondAttribute="leading" id="vhF-l9-ASW"/>
+                            <constraint firstItem="QdP-at-8Vd" firstAttribute="top" secondItem="ak5-Tq-cC2" secondAttribute="top" id="wcW-uh-78C"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="xfc-4c-VKs" secondAttribute="bottom" constant="-16" id="wzJ-cs-CgF"/>
+                            <constraint firstItem="QdP-at-8Vd" firstAttribute="bottom" secondItem="Dhz-nI-mLT" secondAttribute="top" id="zCW-yP-gh0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xoS-jj-8rn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="946"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7wA-9i-PvH">
+            <objects>
+                <viewController id="848-Xd-Fsl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SDx-cC-eJt"/>
+                        <viewControllerLayoutGuide type="bottom" id="rpY-kR-s6A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lbg-Tb-uu7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grey" translatesAutoresizingMaskIntoConstraints="NO" id="YyP-ke-zGT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home Keyboard" translatesAutoresizingMaskIntoConstraints="NO" id="reH-f3-jRE">
+                                <rect key="frame" x="9" y="31" width="302" height="537"/>
+                                <animations/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="You're Home" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LSz-e2-pCu">
+                                <rect key="frame" x="-110" y="20" width="542" height="35"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="nxM-jj-JMK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-UltraLight" family="Apple SD Gothic Neo" pointSize="26"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1x-RF-RLG">
+                                <rect key="frame" x="129" y="48" width="63" height="41"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Finish"/>
+                                <connections>
+                                    <segue destination="pfp-OZ-CX0" kind="modal" id="xMQ-4a-XVG"/>
+                                </connections>
+                            </button>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gr6-hC-EEF">
+                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <animations/>
+                            </adBannerView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LSz-e2-pCu" firstAttribute="top" secondItem="SDx-cC-eJt" secondAttribute="bottom" id="3EA-EI-iQ5"/>
+                            <constraint firstItem="YyP-ke-zGT" firstAttribute="top" secondItem="lbg-Tb-uu7" secondAttribute="top" id="48o-ua-cuA"/>
+                            <constraint firstAttribute="trailing" secondItem="YyP-ke-zGT" secondAttribute="trailing" id="4A0-fV-RHj"/>
+                            <constraint firstItem="YyP-ke-zGT" firstAttribute="leading" secondItem="lbg-Tb-uu7" secondAttribute="leading" id="69Y-uE-D8V"/>
+                            <constraint firstItem="YyP-ke-zGT" firstAttribute="centerX" secondItem="S1x-RF-RLG" secondAttribute="centerX" id="Ayc-7Z-qem"/>
+                            <constraint firstItem="S1x-RF-RLG" firstAttribute="top" secondItem="LSz-e2-pCu" secondAttribute="bottom" constant="-1" id="DgS-zD-okZ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Gr6-hC-EEF" secondAttribute="bottom" constant="-16" id="NDX-8Q-auE"/>
+                            <constraint firstItem="reH-f3-jRE" firstAttribute="top" secondItem="SDx-cC-eJt" secondAttribute="bottom" constant="11" id="Re6-4T-K5U"/>
+                            <constraint firstItem="Gr6-hC-EEF" firstAttribute="leading" secondItem="YyP-ke-zGT" secondAttribute="leading" id="WUi-ep-Hnh"/>
+                            <constraint firstItem="reH-f3-jRE" firstAttribute="bottom" secondItem="rpY-kR-s6A" secondAttribute="top" id="eE0-AS-Uty"/>
+                            <constraint firstItem="LSz-e2-pCu" firstAttribute="leading" secondItem="lbg-Tb-uu7" secondAttribute="leadingMargin" constant="24" id="fvH-qp-3qY"/>
+                            <constraint firstItem="LSz-e2-pCu" firstAttribute="centerX" secondItem="S1x-RF-RLG" secondAttribute="centerX" id="hRe-4g-N0d"/>
+                            <constraint firstItem="reH-f3-jRE" firstAttribute="centerX" secondItem="S1x-RF-RLG" secondAttribute="centerX" id="jjH-Z9-sDd"/>
+                            <constraint firstItem="reH-f3-jRE" firstAttribute="leading" secondItem="lbg-Tb-uu7" secondAttribute="leadingMargin" constant="-7" id="sOx-fB-WlZ"/>
+                            <constraint firstItem="YyP-ke-zGT" firstAttribute="bottom" secondItem="rpY-kR-s6A" secondAttribute="top" id="uju-HH-4sT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMa-gq-bVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1778" y="946"/>
+        </scene>
     </scenes>
     <resources>
         <image name="AddDankMemes" width="856" height="1500"/>
@@ -778,9 +849,13 @@
         <image name="GoToKeyboard" width="856" height="1500"/>
         <image name="GoToKeyboards" width="856" height="1500"/>
         <image name="GoToSetting" width="856" height="1500"/>
+        <image name="Home Keyboard" width="856" height="1500"/>
         <image name="YourDone" width="856" height="1500"/>
         <image name="go back" width="856" height="1500"/>
         <image name="grey" width="640" height="1136"/>
         <image name="image1" width="856" height="1500"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="xMQ-4a-XVG"/>
+    </inferredMetricsTieBreakers>
 </document>
