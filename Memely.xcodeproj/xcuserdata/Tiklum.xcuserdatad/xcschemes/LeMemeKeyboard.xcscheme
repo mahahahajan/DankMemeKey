@@ -2,7 +2,7 @@
 <Scheme
    LastUpgradeVersion = "0710"
    wasCreatedForAppExtension = "YES"
-   version = "2.0">
+   version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -47,10 +47,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E66A07801BEEA69B000BFF3B"
-            BuildableName = "LeMemeKeyboard.appex"
-            BlueprintName = "LeMemeKeyboard"
-            ReferencedContainer = "container:DankMemes.xcodeproj">
+            BlueprintIdentifier = "E66A07571BEEA588000BFF3B"
+            BuildableName = "DankMemes.app"
+            BlueprintName = "DankMemes"
+            ReferencedContainer = "container:Memely.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,22 +65,17 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES"
-      launchAutomaticallySubstyle = "2">
-      <RemoteRunnable
-         runnableDebuggingMode = "0"
-         BundleIdentifier = "com.mahahahajan.DankMemes"
-         RemotePath = "/Users/Tiklum/Library/Developer/CoreSimulator/Devices/D84834A9-1A68-446B-9F2E-BA3AD3AA7BF9/data/Containers/Bundle/Application/B9EB9E14-DA11-4206-8FAA-FC8209719B55/DankMemes.app">
-      </RemoteRunnable>
-      <MacroExpansion>
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E66A07571BEEA588000BFF3B"
             BuildableName = "DankMemes.app"
             BlueprintName = "DankMemes"
-            ReferencedContainer = "container:DankMemes.xcodeproj">
+            ReferencedContainer = "container:Memely.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
