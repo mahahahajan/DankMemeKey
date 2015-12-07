@@ -119,26 +119,26 @@ class KeyboardViewController: UIInputViewController {
         
         var name: String!
         if(title == "1"){
-            name = "lyin.jpg"
+            name = "3a5.jpg"
         }
         else if(title == "2")
         {
             name = "3cd8a33a.png"
         }
         else if(title == "A"){
-            name = "businessNone.png"
+            name = "22118345.jpg"
         }
         else if(title == "3")
         {
-            name = "babyYes.jpg"
+            name = "6e8.jpg"
         }
         else if(title == "4")
         {
-            name = "coolStory.jpg"
+            name = "giphy-1.gif"
         }
         else if(title == "S")
         {
-            name = "findKill.jpg"
+            name = "c2d.jpg"
         }
         else if(title == "D")
         {
@@ -154,7 +154,7 @@ class KeyboardViewController: UIInputViewController {
         }
         else if(title == "Z")
         {
-            name = "beanMeme.jpg"
+            name = "Dec813-funny-memes-63.jpg"
         }
         else if(title == "X")
         {
@@ -162,7 +162,7 @@ class KeyboardViewController: UIInputViewController {
         }
         else if(title == "C")
         {
-            name = "download(2).jpg"
+            name = "oh-really.png"
         }
         else{
             name="I-Like-Yer-Style-Dude.jpg"

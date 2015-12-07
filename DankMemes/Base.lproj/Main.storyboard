@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome" textAlignment="center" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="6K4-Vi-3RS">
-                                <rect key="frame" x="88" y="14" width="145" height="45"/>
+                                <rect key="frame" x="88" y="13" width="145" height="45"/>
                                 <animations/>
                                 <color key="textColor" red="0.32086489898989901" green="0.32086489898989901" blue="0.32086489898989901" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-UltraLight" family="Apple SD Gothic Neo" pointSize="38"/>
