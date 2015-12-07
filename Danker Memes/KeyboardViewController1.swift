@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KeyboardViewController: UIInputViewController {
+class KeyboardViewController1: UIInputViewController {
     
     var name = ""
     var buttonImage : UIImage!
@@ -76,11 +76,11 @@ class KeyboardViewController: UIInputViewController {
         
         var textColor: UIColor
         let proxy = self.textDocumentProxy
-        if proxy.keyboardAppearance == UIKeyboardAppearance.Dark {
+       if proxy.keyboardAppearance == UIKeyboardAppearance.Dark {
             textColor = UIColor.whiteColor()
         } else {
             textColor = UIColor.blackColor()
-        }
+     }
     }
     
     
@@ -119,7 +119,7 @@ class KeyboardViewController: UIInputViewController {
         
         var name: String!
         if(title == "1"){
-            name = "3a5.jpg"
+            name = "DealWithIt.jpg"
         }
         else if(title == "2")
         {
@@ -170,7 +170,7 @@ class KeyboardViewController: UIInputViewController {
         return name
     }
     
-        func didTapButton(sender: UIButton!) {
+    func didTapButton(sender: UIButton!) {
         
         print(("REACHED HERE"))
         

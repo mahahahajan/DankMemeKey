@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB32718E1C152E2300341573 /* KeyboardViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB32718D1C152E2300341573 /* KeyboardViewController1.swift */; };
+		AB3271921C152E2300341573 /* Danker Memes.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB32718B1C152E2300341573 /* Danker Memes.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB3271971C152E3200341573 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66A07851BEEA69B000BFF3B /* KeyboardViewController.swift */; };
+		AB3271981C152E9400341573 /* KeyboardViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB32718D1C152E2300341573 /* KeyboardViewController1.swift */; };
+		AB3271991C152E9500341573 /* KeyboardViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB32718D1C152E2300341573 /* KeyboardViewController1.swift */; };
 		AB49B8C41BF66E0A0077150A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB49B8C31BF66E0A0077150A /* iAd.framework */; };
 		ABE3FB571BF30D190021FEB0 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB561BF30D190021FEB0 /* welcome.jpg */; };
 		ABE3FB591BF407440021FEB0 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE3FB581BF407440021FEB0 /* Icon-72.png */; };
@@ -66,9 +71,9 @@
 		E63309671C00FEE200C23269 /* giphy-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E63309361C00FEE200C23269 /* giphy-4.gif */; };
 		E63309681C00FEE200C23269 /* giphy-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E63309361C00FEE200C23269 /* giphy-4.gif */; };
 		E63309691C00FEE200C23269 /* giphy-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E63309361C00FEE200C23269 /* giphy-4.gif */; };
-		E633096A1C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E63309371C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg */; };
-		E633096B1C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E63309371C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg */; };
-		E633096C1C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E63309371C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg */; };
+		E633096A1C00FEE200C23269 /* ILikeYourStyle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E63309371C00FEE200C23269 /* ILikeYourStyle.jpg */; };
+		E633096B1C00FEE200C23269 /* ILikeYourStyle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E63309371C00FEE200C23269 /* ILikeYourStyle.jpg */; };
+		E633096C1C00FEE200C23269 /* ILikeYourStyle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E63309371C00FEE200C23269 /* ILikeYourStyle.jpg */; };
 		E633096D1C00FEE200C23269 /* images (2).jpe in Resources */ = {isa = PBXBuildFile; fileRef = E63309381C00FEE200C23269 /* images (2).jpe */; };
 		E633096E1C00FEE200C23269 /* images (2).jpe in Resources */ = {isa = PBXBuildFile; fileRef = E63309381C00FEE200C23269 /* images (2).jpe */; };
 		E633096F1C00FEE200C23269 /* images (2).jpe in Resources */ = {isa = PBXBuildFile; fileRef = E63309381C00FEE200C23269 /* images (2).jpe */; };
@@ -104,6 +109,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AB3271901C152E2300341573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E66A07501BEEA588000BFF3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB32718A1C152E2300341573;
+			remoteInfo = "Danker Memes";
+		};
 		E66A076E1BEEA588000BFF3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E66A07501BEEA588000BFF3B /* Project object */;
@@ -127,6 +139,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				AB3271921C152E2300341573 /* Danker Memes.appex in Embed App Extensions */,
 				E66A07891BEEA69B000BFF3B /* LeMemeKeyboard.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -135,6 +148,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB32718B1C152E2300341573 /* Danker Memes.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Danker Memes.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB32718D1C152E2300341573 /* KeyboardViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController1.swift; sourceTree = "<group>"; };
+		AB32718F1C152E2300341573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB49B8C31BF66E0A0077150A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		ABE3FB561BF30D190021FEB0 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome.jpg; sourceTree = "<group>"; };
 		ABE3FB581BF407440021FEB0 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -166,7 +182,7 @@
 		E63309341C00FEE200C23269 /* FqTzbuY.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FqTzbuY.gif; sourceTree = "<group>"; };
 		E63309351C00FEE200C23269 /* giphy-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "giphy-1.gif"; sourceTree = "<group>"; };
 		E63309361C00FEE200C23269 /* giphy-4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "giphy-4.gif"; sourceTree = "<group>"; };
-		E63309371C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I-Like-Yer-Style-Dude.jpg"; sourceTree = "<group>"; };
+		E63309371C00FEE200C23269 /* ILikeYourStyle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ILikeYourStyle.jpg; sourceTree = "<group>"; };
 		E63309381C00FEE200C23269 /* images (2).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images (2).jpe"; sourceTree = "<group>"; };
 		E63309391C00FEE200C23269 /* images(1).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images(1).jpe"; sourceTree = "<group>"; };
 		E633093A1C00FEE200C23269 /* images(3).jpe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "images(3).jpe"; sourceTree = "<group>"; };
@@ -191,6 +207,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AB3271881C152E2300341573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E66A07551BEEA588000BFF3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,6 +239,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB32718C1C152E2300341573 /* Danker Memes */ = {
+			isa = PBXGroup;
+			children = (
+				AB32719A1C152FAB00341573 /* Images1 */,
+				AB32718D1C152E2300341573 /* KeyboardViewController1.swift */,
+				AB32718F1C152E2300341573 /* Info.plist */,
+			);
+			path = "Danker Memes";
+			sourceTree = "<group>";
+		};
+		AB32719A1C152FAB00341573 /* Images1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images1;
+			sourceTree = "<group>";
+		};
 		ABDF85691BF2DB96004DAE91 /* Layout img */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,7 +312,7 @@
 				E63309341C00FEE200C23269 /* FqTzbuY.gif */,
 				E63309351C00FEE200C23269 /* giphy-1.gif */,
 				E63309361C00FEE200C23269 /* giphy-4.gif */,
-				E63309371C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg */,
+				E63309371C00FEE200C23269 /* ILikeYourStyle.jpg */,
 				E63309381C00FEE200C23269 /* images (2).jpe */,
 				E63309391C00FEE200C23269 /* images(1).jpe */,
 				E633093A1C00FEE200C23269 /* images(3).jpe */,
@@ -291,6 +331,7 @@
 				E66A075A1BEEA588000BFF3B /* DankMemes */,
 				E66A07701BEEA588000BFF3B /* DankMemesTests */,
 				E66A07821BEEA69B000BFF3B /* LeMemeKeyboard */,
+				AB32718C1C152E2300341573 /* Danker Memes */,
 				E66A07591BEEA588000BFF3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -301,6 +342,7 @@
 				E66A07581BEEA588000BFF3B /* DankMemes.app */,
 				E66A076D1BEEA588000BFF3B /* DankMemesTests.xctest */,
 				E66A07811BEEA69B000BFF3B /* LeMemeKeyboard.appex */,
+				AB32718B1C152E2300341573 /* Danker Memes.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -366,6 +408,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AB32718A1C152E2300341573 /* Danker Memes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3271931C152E2300341573 /* Build configuration list for PBXNativeTarget "Danker Memes" */;
+			buildPhases = (
+				AB3271871C152E2300341573 /* Sources */,
+				AB3271881C152E2300341573 /* Frameworks */,
+				AB3271891C152E2300341573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Danker Memes";
+			productName = "Danker Memes";
+			productReference = AB32718B1C152E2300341573 /* Danker Memes.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		E66A07571BEEA588000BFF3B /* DankMemes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E66A07771BEEA588000BFF3B /* Build configuration list for PBXNativeTarget "DankMemes" */;
@@ -379,6 +438,7 @@
 			);
 			dependencies = (
 				E66A07881BEEA69B000BFF3B /* PBXTargetDependency */,
+				AB3271911C152E2300341573 /* PBXTargetDependency */,
 			);
 			name = DankMemes;
 			productName = DankMemes;
@@ -431,6 +491,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Pulkit Mahajan";
 				TargetAttributes = {
+					AB32718A1C152E2300341573 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HXAUJAN47Z;
+					};
 					E66A07571BEEA588000BFF3B = {
 						CreatedOnToolsVersion = 6.3.2;
 						DevelopmentTeam = HXAUJAN47Z;
@@ -460,11 +524,19 @@
 				E66A07571BEEA588000BFF3B /* DankMemes */,
 				E66A076C1BEEA588000BFF3B /* DankMemesTests */,
 				E66A07801BEEA69B000BFF3B /* LeMemeKeyboard */,
+				AB32718A1C152E2300341573 /* Danker Memes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AB3271891C152E2300341573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E66A07561BEEA588000BFF3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -481,7 +553,7 @@
 				E63309701C00FEE200C23269 /* images(1).jpe in Resources */,
 				E633095B1C00FEE200C23269 /* Dec813-funny-memes-63.jpg in Resources */,
 				E63309491C00FEE200C23269 /* 64662036.jpg in Resources */,
-				E633096A1C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg in Resources */,
+				E633096A1C00FEE200C23269 /* ILikeYourStyle.jpg in Resources */,
 				E63309431C00FEE200C23269 /* 3a5.jpg in Resources */,
 				E63309671C00FEE200C23269 /* giphy-4.gif in Resources */,
 				E66A07631BEEA588000BFF3B /* Main.storyboard in Resources */,
@@ -536,7 +608,7 @@
 				E633094A1C00FEE200C23269 /* 64662036.jpg in Resources */,
 				E63309561C00FEE200C23269 /* classica_back-button-1_flat-square-white-on-yellow_512x512.png in Resources */,
 				E633097A1C00FEE200C23269 /* JackieChan.png in Resources */,
-				E633096B1C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg in Resources */,
+				E633096B1C00FEE200C23269 /* ILikeYourStyle.jpg in Resources */,
 				E633096E1C00FEE200C23269 /* images (2).jpe in Resources */,
 				E63309531C00FEE200C23269 /* c2d.jpg in Resources */,
 				ABF59F971BF1890B00F9EB1F /* Icon-60@3x.png in Resources */,
@@ -568,7 +640,7 @@
 				E63309481C00FEE200C23269 /* 3cd8a33a.png in Resources */,
 				E633095A1C00FEE200C23269 /* DealWithIt.jpg in Resources */,
 				E63309691C00FEE200C23269 /* giphy-4.gif in Resources */,
-				E633096C1C00FEE200C23269 /* I-Like-Yer-Style-Dude.jpg in Resources */,
+				E633096C1C00FEE200C23269 /* ILikeYourStyle.jpg in Resources */,
 				E633095D1C00FEE200C23269 /* Dec813-funny-memes-63.jpg in Resources */,
 				E63309751C00FEE200C23269 /* images(3).jpe in Resources */,
 			);
@@ -577,10 +649,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AB3271871C152E2300341573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB32718E1C152E2300341573 /* KeyboardViewController1.swift in Sources */,
+				AB3271971C152E3200341573 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E66A07541BEEA588000BFF3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3271991C152E9500341573 /* KeyboardViewController1.swift in Sources */,
 				E66A07601BEEA588000BFF3B /* ViewController.swift in Sources */,
 				E66A075E1BEEA588000BFF3B /* AppDelegate.swift in Sources */,
 			);
@@ -599,12 +681,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E66A07861BEEA69B000BFF3B /* KeyboardViewController.swift in Sources */,
+				AB3271981C152E9400341573 /* KeyboardViewController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AB3271911C152E2300341573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB32718A1C152E2300341573 /* Danker Memes */;
+			targetProxy = AB3271901C152E2300341573 /* PBXContainerItemProxy */;
+		};
 		E66A076F1BEEA588000BFF3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E66A07571BEEA588000BFF3B /* DankMemes */;
@@ -637,6 +725,35 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AB3271941C152E2300341573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Danker Memes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahahahajan.DankMemes.Danker-Memes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB3271951C152E2300341573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Danker Memes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahahahajan.DankMemes.Danker-Memes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		E66A07751BEEA588000BFF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -727,6 +844,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DankMemes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -742,6 +860,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DankMemes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -816,6 +935,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AB3271931C152E2300341573 /* Build configuration list for PBXNativeTarget "Danker Memes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3271941C152E2300341573 /* Debug */,
+				AB3271951C152E2300341573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E66A07531BEEA588000BFF3B /* Build configuration list for PBXProject "Memely" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
